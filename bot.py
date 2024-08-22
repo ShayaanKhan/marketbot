@@ -102,5 +102,5 @@ async def on_message(message):
         except KeyError:
             await message.channel.send(f'Item {item_name.replace("_", " ").title()} not found.')
 
-#webserver.keep_alive()
+webserver.keep_alive()
 client.run(TOKEN)
