@@ -62,10 +62,10 @@ async def on_message(message):
             "  - Sets the channel for bot commands in this server.\n\n"
             "**-price <item_name>**\n"
             "  - Queries the price of an item on the Warframe market.\n"
-            "  - **item_name** is the name of the item (e.g., `Rhino Prime Set`, `Soma Prime`, `Primed Bane of Grineer`).\n\n"
+            "  - **item_name** is the name of the item (e.g., `Rhino Prime Set`, `Soma Prime Set`, `Primed Bane of Grineer`).\n\n"
             "Examples:\n"
             "  - `-price Rhino Prime Set`\n"
-            "  - `-price Soma Prime`\n"
+            "  - `-price Soma Prime Set`\n"
             "  - `-price Primed Bane of Grineer`\n"
         )
         await message.channel.send(help_text)
